@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: root
+    password: 19930418
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/pingyougou?serverTimezone=UTC
+mybatis:
+  type-aliases-package: com.apesource.pingyougouguanli.polo
+  configuration:
+    map-underscore-to-camel-case: true
+
